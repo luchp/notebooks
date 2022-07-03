@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = {path = "C:/Users/lucho/OneDrive/Projects/ep_svn/epst_view/epst-view-py3-python-38/pipwin/numpy-1.22.3+mkl-cp39-cp39-win_amd64.whl"}
+scipy = {path = "C:/Users/lucho/OneDrive/Projects/ep_svn/epst_view/epst-view-py3-python-38/pipwin/scipy-1.8.0-cp39-cp39-win_amd64.whl"}
+
+delorean = "*"
+matplotlib = "*" 
+requests = "*" 
+pyinstaller = "*"
+pint = "*"
+asyncua = "*"
+anytree = "*"
+gmqtt =  "*"
+aiofiles = "*"
+
+[requires]
+python_version = "3.9"
